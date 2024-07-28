@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    width: 504.09px;
+    height: 41px;
+    top: 59px;
+    left: 54.91px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px Solid Black
+}
+
+.container button{
+    flex-basis: 30%;
+    height: 95%;
+    
+
+}
+
+.container button {
+    background-color: #007bff;
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 10px; /* Border radius for rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.container button:active {
+    background-color: #004080; /* Even darker shade on click */
+    transform: scale(1); /* Reset scale on click */
+}
+
+.container button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+}

@@ -1,0 +1,45 @@
+.title{
+    color: rgba(46, 58, 89, 1);
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    align-content: center;
+}
+
+.box{
+    width: 35vw;
+    background-color: grey;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.left{
+    width: 20%;
+    height: 100%;
+    
+    margin-right: 5px;
+   
+}
+
+.icon{
+    font-size: 50px;
+    padding: 22px;
+}
+
+.right{
+    width: 75%;
+    height: 100%;
+    
+}
+
+.right h2{
+
+}
+
+.right p{
+
+}

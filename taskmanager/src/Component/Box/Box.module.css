@@ -1,0 +1,55 @@
+.boxcontainer{
+    width: 18%;
+    background: linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+    height: 95%;
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border: 0px Solid black;
+    outline: none;
+    border-radius: 10%;
+    
+    
+}
+
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+
+}
+
+.heading{
+    width: 203px;
+    height: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    align-content: center;
+}
+
+.logo{
+    width: 20%;
+}
+.boxcontainer h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 50px;
+    align-content: center;
+}
+
+.boxcontainer p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    align-content: center;
+}

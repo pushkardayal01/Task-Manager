@@ -1,0 +1,15 @@
+/* Footer.module.css */
+.box {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    
+}
+
+.icon {
+    display: block;
+    flex-basis: 20%;
+}
